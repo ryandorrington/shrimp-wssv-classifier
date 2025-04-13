@@ -1,3 +1,5 @@
+.DS_Store
+ShrimpDiseaseImageBD An Image Dataset for Computer Vision-Based Detection of Shrimp Diseases in Bangladesh/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
