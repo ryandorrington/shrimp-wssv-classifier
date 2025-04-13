@@ -14,6 +14,10 @@ mv ~/Downloads/ShrimpDiseaseImageBD\ An\ Image\ Dataset\ for\ Computer\ Vision-B
 ```
 
 4. unzip dataset and image subdirectories
+5. Delete BG data:
+```
+rm -rf ShrimpDiseaseImageBD\ An\ Image\ Dataset\ for\ Computer\ Vision-Based\ Detection\ of\ Shrimp\ Diseases\ in\ Bangladesh/Root/Raw\ Images/4.\ WSSV_BG  ShrimpDiseaseImageBD\ An\ Image\ Dataset\ for\ Computer\ Vision-Based\ Detection\ of\ Shrimp\ Diseases\ in\ Bangladesh/Root/Raw\ Images/2.\ BG
+```
 
 
 
