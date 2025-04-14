@@ -2,15 +2,15 @@ import os
 import csv
 import shutil
 
-# Source folders for each class.
+
 healthy_src = "healthy_images_cropped"
 wssv_src = "wssv_images_cropped"
 
-# Destination folders.
-healthy_dest = "healthy_images_clean"
-wssv_dest = "wssv_images_clean"
+healthy_dest = "dataset/healthy"
+wssv_dest = "dataset/wssv"
 
-# Create destination folders if they don't exist.
+# Create dataset directory and destination folders if they don't exist.
+os.makedirs("dataset", exist_ok=True)
 os.makedirs(healthy_dest, exist_ok=True)
 os.makedirs(wssv_dest, exist_ok=True)
 
