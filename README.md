@@ -10,7 +10,7 @@ ResNet-18 is limited by a 224x224 input image size. Cropping the shrimp images t
 ### Cropped WSSV Image
 <img src="WSSV-116-img-3_835_804.jpg" width="50%" alt="Cropped WSSV Example">
 
-Training for ~10 minutes on an M1 Mac resulted in a 95% prediction accuracy on the validation set.
+Training for ~10 minutes on an M1 Mac resulted in a 95% prediction accuracy on the manually cropped validation set.
 
 ### Training Graph
 <img src="training_history.png" alt="Training Graph">
