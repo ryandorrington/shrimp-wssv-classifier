@@ -20,9 +20,12 @@ Training for ~10 minutes on an M1 Mac resulted in a 95% prediction accuracy on t
 ```
 git clone https://github.com/ryandorrington/shrimp-wssv-classifier.git
 cd shrimp-wssv-classifier
+```
+2. Install requirements
+```
 pip install -r requirements.txt
 ```
-2. Train
+3. Train
 ```
 python3 classification_model_train.py
 ```
