@@ -35,7 +35,7 @@ dataset = datasets.ImageFolder(root="dataset", transform=transform)
 TRAIN_SIZE: int = int(0.8 * len(dataset))
 VAL_SIZE: int = len(dataset) - TRAIN_SIZE
 BATCH_SIZE: int = 32
-NUM_EPOCHS: int = 1
+NUM_EPOCHS: int = 15
 
 train_dataset, val_dataset = random_split(dataset, [TRAIN_SIZE, VAL_SIZE])
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
